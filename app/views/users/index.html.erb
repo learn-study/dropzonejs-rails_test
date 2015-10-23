@@ -1,0 +1,9 @@
+ <form action="/users" id= "user-dropzone" class= "dropzone" enctype= "multipart/form-data">
+ <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>">
+ <div class= "fallback">
+ <input name="media" type="file" multiple>
+ <input type="submit" value="submit">
+ </div>
+ </form>
+ 
+
